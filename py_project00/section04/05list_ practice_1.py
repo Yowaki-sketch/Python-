@@ -5,7 +5,7 @@ max()函数 求最大值
 min()函数 求最小值
 """
 # 1.定义列表
-num_list = []
+num_list = list() # todo列表构造器list()
 # 2.输入10个元素
 for i in range(10):
     num = int(input("请输入一个正整数"))
@@ -22,8 +22,3 @@ print("容器里的最大值：", num_list[-1])
 print("最小值：", num_list[0])
 print("最小值：", min(num_list))
 print("平均值为：", sum(num_list) / len(num_list))
-
-
-
-
-

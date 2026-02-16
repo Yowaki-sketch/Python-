@@ -30,6 +30,8 @@ my_list.reverse()  # 反转
 print(my_list)
 
 # 查
+li_index = my_list.index("9")
+print("字符串9在里边中的索引是", li_index)  # 打印索引
 
 # 排序需要列表中的数据类型一致
 my_list2 = [1, 2, 3, 4, 5, 5, 11, 6]
